@@ -1,0 +1,5 @@
+[support] ML 파이프라인을 개발하면서, 공통으로 사용하는 모듈을 개발하고 관리한다.
+infra : 데이터베이스와 같이 외부 시스템의 인터페이스를 제공하는 기능
+model : 모델 버전, 평가 그리고 로깅을 위한 기능
+callback_functions.py : Airflow DAG에서 callback 함수로 사용되는 간단한 기능
+date_values.py : 모듈은 Date와 관련된 기능
